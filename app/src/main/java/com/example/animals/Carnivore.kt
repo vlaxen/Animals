@@ -1,7 +1,5 @@
 package com.example.animals
 
-class Carnivore(): Animal {
-    var animalName = listOf("Wolf", "Bear", "Dog", "Cat")
+open class Carnivore : Animal() {
+    override val animalFood = "Meat"
 }
-
-

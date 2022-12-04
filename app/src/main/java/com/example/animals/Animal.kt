@@ -1,10 +1,11 @@
 package com.example.animals
 
-open class Animal(
-    open val animalFood: String,
-    open val animalName: String,
-    open val animalMass: Int
-    ) {
-    fun printAnimals(){
-        println("Животное называется $animalName, питается $animalFood, имеет среднюю массу $animalMass кг.")
+open class Animal {
+    open val animalFood = ""
+    open val animalName = ""
+    open val animalMass = ""
+
+    open fun animalIntro() {
+       println("Добрый вечер, это $animalName. Я ем $animalFood и вешу, в среднем $animalMass килограмм")
+    }
 }
