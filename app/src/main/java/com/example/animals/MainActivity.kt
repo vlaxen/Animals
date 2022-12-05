@@ -9,8 +9,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val animals = arrayOf(Cow(), Elephant(), Bear(), Wolf())
-        for(item in animals) {
-            item.animalIntro()
+        for(it in animals) {
+            it.animalIntro()
         }
 /*
         val cow = Cow()
@@ -21,11 +21,6 @@ class MainActivity : AppCompatActivity() {
         elephant.animalIntro()
         bear.animalIntro()
         wolf.animalIntro()
-
-        var animalList: Animal()
-
-        = mutableListOf(Carnivore.animalName)
-        animalList.add(Herbivore.animalName)
         println(animalList)*/
     }
 }

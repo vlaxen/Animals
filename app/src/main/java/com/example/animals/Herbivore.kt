@@ -1,5 +1,5 @@
 package com.example.animals
 
 open class Herbivore : Animal() {
-    override val animalFood = "Grass"
+    override val animalFood = "трава"
 }

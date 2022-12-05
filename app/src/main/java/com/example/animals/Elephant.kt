@@ -2,5 +2,5 @@ package com.example.animals
 
 class Elephant: Herbivore() {
     override val animalName = "Слон"
-    override val animalMass = "500"
+    override val animalMass = "1000"
 }
